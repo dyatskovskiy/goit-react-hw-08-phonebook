@@ -9,7 +9,7 @@ export const UserMenu = () => {
 
   return (
     <UserMenuWrapper>
-      <Text>Welcome, {user.name}!</Text>
+      <Text>{user.email}</Text>
       <Button type="button" onClick={() => dispatch(logOut())}>
         Log Out
       </Button>

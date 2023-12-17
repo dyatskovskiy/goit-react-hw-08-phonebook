@@ -1,9 +1,10 @@
 import { Formik } from 'formik';
-import { Form, Field, Button, ErrorMessage } from './ContactForm.styled';
+import { Form, Field, ErrorMessage } from './ContactForm.styled';
 import * as Yup from 'yup';
 import { useDispatch, useSelector } from 'react-redux';
 import { addContact } from 'redux/contacts/operations';
 import { getContacts } from 'redux/contacts/selectors';
+import Button from '@mui/material/Button';
 
 const contactsFormSchema = Yup.object().shape({
   name: Yup.string()
@@ -57,7 +58,9 @@ export const ContactForm = () => {
         <Field id="number" name="number" type="tel" />
         <ErrorMessage name="number" component={'span'}></ErrorMessage>
 
-        <Button type="submit">Add contact</Button>
+        <Button variant="contained" type="submit">
+          Add contact
+        </Button>
       </Form>
     </Formik>
   );

@@ -22,9 +22,3 @@ export const ErrorMessage = styled(Error)`
   color: #f96722;
   font-size: 14px;
 `;
-
-export const Button = styled.button`
-  width: 100px;
-  padding: 4px 5px;
-  cursor: pointer;
-`;

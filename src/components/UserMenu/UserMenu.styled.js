@@ -12,15 +12,15 @@ export const Text = styled.p`
 `;
 
 export const Button = styled.button`
-  color: black;
+  color: whitesmoke;
   font-size: 16px;
   border-radius: 6px;
   border: none;
   padding: 4px 6px;
-  background: rgb(190, 248, 255);
-  background: radial-gradient(
-    circle,
-    rgba(190, 248, 255, 1) 0%,
-    rgba(168, 221, 255, 1) 96%
-  );
+  background: #1976d2;
+  transition: all 200ms ease-in;
+  &:hover,
+  :focus {
+    background: #1565c0;
+  }
 `;
