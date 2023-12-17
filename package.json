@@ -10,6 +10,7 @@
     "@fontsource/roboto": "^5.0.8",
     "@mui/icons-material": "^5.15.0",
     "@mui/material": "^5.15.0",
+    "@mui/material-next": "^6.0.0-alpha.113",
     "@mui/styled-engine-sc": "^6.0.0-alpha.8",
     "@reduxjs/toolkit": "^1.9.7",
     "axios": "^1.6.2",

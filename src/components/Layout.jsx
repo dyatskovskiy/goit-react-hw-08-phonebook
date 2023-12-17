@@ -7,7 +7,7 @@ export const Layout = () => {
   return (
     <AppLayout>
       <AppBar />
-      <Suspense fallback={null}>
+      <Suspense fallback={'Loading...'}>
         <Outlet />
       </Suspense>
     </AppLayout>
